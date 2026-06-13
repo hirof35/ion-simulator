@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>視覚的陰イオン・陽イオン分解シミュレーター</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>電気分解シミュレーター (TypeScript)</h1>
+    <p>「電源 ON」にすると、電場が発生しイオンがそれぞれの電極へ引き寄せられます。</p>
+    
+    <canvas id="simCanvas" width="600" height="400"></canvas>
+    
+    <div class="controls">
+      <button id="toggleBtn">電源 ON</button>
+    </div>
+  </div>
+  <script src="./src/index.ts" type="module"></script>
+</body>
+</html>
